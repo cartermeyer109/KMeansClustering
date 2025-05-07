@@ -10,5 +10,7 @@ As an iteration on this concept, the "HDIFeatures" version focuses exclusively o
 Descriptions for each indicator of HDI can be found here: https://www.investopedia.com/terms/h/human-development-index-hdi.asp#:~:text=It%20is%20composed%20of%20four,income%20(GNI)%20per%20capita.
 
 **Health:** Measured by the life expectancy calculated at the time of birth, which the UNData dataset countains
+
 **Education:** Measured by the mean years of schooling for residents, and the expected years of schooling. However, the UNData dataframe does not contain these statistics. In its place I used the % of the population that enroll in primary, secondary, and tertiary education.
+
 **Economics** Measured by Gross National Income (GNI) per capita. Since GNI per capita is not available in the UNData dataset, the unemployment rate was used as the closest economic proxy.
